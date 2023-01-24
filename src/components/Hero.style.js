@@ -24,12 +24,12 @@ export const Header = styled.div`
   flex-direction: column;
   justify-content: center;
   padding: 20px;
+  max-width: 400px;
 `;
 export const Title = styled.h1`
   font-family: ${theme.fontFamily.main};
   text-transform: uppercase;
   font-size: ${fontSize(60)};
-  max-width: 300px;
   text-shadow: 2px 1px 2px ${theme.palette.common.grey};
 `;
 
@@ -42,5 +42,18 @@ export const SubTitle = styled.span`
 `;
 
 export const SecondTitle = styled(Title)`
-  width: 50%;
+  position: relative;
+  line-height: 1.6;
+  font-size: ${fontSize(36)};
+  :before {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 10px;
+    z-index: -1;
+    background-color: ${theme.palette.common.pink};
+    bottom: 12px;
+    left: 27px;
+    opacity: 0.8;
+  }
 `;

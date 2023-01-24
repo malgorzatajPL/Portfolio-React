@@ -19,7 +19,7 @@ export const theme = {
     },
   },
   fontFamily: {
-    main: 'Raleway',
+    main: 'Lato',
   },
 };
 const fontSizeBase = 16;
