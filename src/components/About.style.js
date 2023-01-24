@@ -12,7 +12,7 @@ export const AboutHeader = styled.div`
   align-items: center;
   margin: 0 auto;
   width: 65%;
-  padding: 30px;
+  padding: 0 20px 40px 20px;
 `;
 
 export const TitleAbout = styled.h3`

@@ -3,7 +3,7 @@ import { fontSize, theme } from '../styles/theme';
 
 export const HeroStyle = styled.section`
   width: 100%;
-  height: 100vh;
+  height: 95vh;
   background: ${theme.palette.common.black};
   color: ${theme.palette.common.white};
   position: relative;
