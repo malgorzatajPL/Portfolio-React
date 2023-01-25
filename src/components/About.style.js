@@ -5,7 +5,7 @@ import { device } from '../shared/MediaQuery';
 export const AboutStyle = styled.section`
   width: 100%;
   color: ${theme.palette.common.white};
-  min-height: 100vh;
+  min-height: 55vh;
   z-index: 10;
   position: relative;
   background: ${theme.palette.common.black};
