@@ -4,7 +4,7 @@ import { device } from '../shared/MediaQuery';
 
 export const HeroStyle = styled.section`
   width: 100%;
-  height: 95vh;
+  height: 100vh;
   color: ${theme.palette.common.white};
   position: relative;
   z-index: 1;

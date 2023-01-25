@@ -5,6 +5,10 @@ import { device } from '../shared/MediaQuery';
 export const AboutStyle = styled.section`
   width: 100%;
   color: ${theme.palette.common.white};
+  min-height: 100vh;
+  z-index: 10;
+  position: relative;
+  background: ${theme.palette.common.black};
 `;
 export const AboutHeader = styled.div`
   display: flex;
@@ -22,12 +26,22 @@ export const AboutHeader = styled.div`
 `;
 
 export const TitleAbout = styled.h3`
-  font-size: ${fontSize(40)};
   font-family: ${theme.fontFamily.main};
   line-height: 1.9;
+  @media ${device.mobileS} {
+    font-size: ${fontSize(30)};
+  }
+  @media ${device.laptop} {
+    font-size: ${fontSize(40)};
+  }
 `;
 export const ContentAbout = styled.p`
-  font-size: ${fontSize(30)};
   line-height: 1.4;
   font-family: ${theme.fontFamily.main};
+  @media ${device.mobileS} {
+    font-size: ${fontSize(20)};
+  }
+  @media ${device.laptop} {
+    font-size: ${fontSize(30)};
+  }
 `;
