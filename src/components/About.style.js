@@ -12,11 +12,11 @@ export const AboutHeader = styled.div`
   align-items: center;
   margin: 0 auto;
   @media ${device.mobileS} {
-    padding: 0 10px 40px 10px;
+    padding: 30px 10px 40px 10px;
     width: 80%;
   }
   @media ${device.tablet} {
-    padding: 0 20px 40px 20px;
+    padding: 38px 20px 40px 20px;
     width: 65%;
   }
 `;

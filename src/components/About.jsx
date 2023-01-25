@@ -5,6 +5,7 @@ import {
   ContentAbout,
   TitleAbout,
 } from './About.style';
+import ArrowDown from './Arrow';
 
 function About() {
   return (
@@ -18,6 +19,7 @@ function About() {
           like to become a Full Stack Developer.
         </ContentAbout>
       </AboutHeader>
+      <ArrowDown />
     </AboutStyle>
   );
 }

@@ -1,5 +1,11 @@
 import React from 'react';
-import { Css3, ReactLogo, Typescript } from 'styled-icons/boxicons-logos';
+import {
+  Css3,
+  Git,
+  Github,
+  ReactLogo,
+  Typescript,
+} from 'styled-icons/boxicons-logos';
 import { Figma } from 'styled-icons/fa-brands';
 import {
   Adobephotoshop,
@@ -15,6 +21,7 @@ import {
   TitleHeaderSkills,
   TitleSkills,
 } from './MySkills.style';
+import ArrowDown from './Arrow';
 
 function MySkills() {
   return (
@@ -51,8 +58,17 @@ function MySkills() {
             <Nextdotjs size={60}></Nextdotjs>
             <TitleSkills>Next.js</TitleSkills>
           </BoxSkills>
+          <BoxSkills>
+            <Git size={60}></Git>
+            <TitleSkills>Githube</TitleSkills>
+          </BoxSkills>
+          <BoxSkills>
+            <Github size={60}></Github>
+            <TitleSkills>Git</TitleSkills>
+          </BoxSkills>
         </ContentSkills>
       </HeaderMySkills>
+      <ArrowDown />
     </MySkillsStyle>
   );
 }

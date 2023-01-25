@@ -15,11 +15,33 @@ function MyExperience() {
     <MyExperienceStyle>
       <TitleMyExperience>My experience</TitleMyExperience>
       <ContainerMyExperience>
-        <TitleContainer>Connexin </TitleContainer>
+        <TitleContainer>Connexin, Junior Frontend developer</TitleContainer>
         <ContentContainer>
           <Data>11.22 - current</Data>
           <List>
-            <Listli></Listli>
+            <Listli>
+              Creating reusable components such as buttons, glass cards,
+              articles, menus, postcode checkers, offer components.
+            </Listli>
+            <Listli>
+              Reviewing other PRs, testing their work to see if they produce
+              errors.
+            </Listli>
+            <Listli>
+              Refactoring code to be as readable, effective and best as
+              possible.
+            </Listli>
+            <Listli>Frontend development for IOT projects</Listli>
+            <Listli>
+              Implementing the best techniques of React, Next.js, Typescript and
+              styled components.
+            </Listli>
+            <Listli>Creating CMS, Sanity.</Listli>
+            <Listli>
+              Work with Jira, agile. Creating tickets, time estimation and
+              maintaining order in ticket work processes. Suggest ideas that can
+              be implemented to improve the project. Troubleshooting.
+            </Listli>
           </List>
         </ContentContainer>
       </ContainerMyExperience>
