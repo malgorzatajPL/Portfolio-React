@@ -26,7 +26,7 @@ import ArrowDown from './Arrow';
 function MySkills() {
   return (
     <MySkillsStyle>
-      <ImageSkills alt='background skills' src='/background.png' />
+      <ImageSkills alt='background skills' src='/Background.png' />
       <HeaderMySkills>
         <TitleHeaderSkills> My skills</TitleHeaderSkills>
         <ContentSkills>
