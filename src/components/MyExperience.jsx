@@ -17,7 +17,7 @@ function MyExperience() {
       <ContainerMyExperience>
         <TitleContainer>Connexin, Junior Frontend developer</TitleContainer>
         <ContentContainer>
-          <Data>11.22 - current</Data>
+          <Data>11.2021 - current</Data>
           <List>
             <Listli>
               Creating reusable components such as buttons, glass cards,
