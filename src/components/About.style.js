@@ -4,7 +4,6 @@ import { device } from '../shared/MediaQuery';
 
 export const AboutStyle = styled.section`
   width: 100%;
-  background: ${theme.palette.common.black};
   color: ${theme.palette.common.white};
 `;
 export const AboutHeader = styled.div`

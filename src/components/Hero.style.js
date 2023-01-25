@@ -5,7 +5,6 @@ import { device } from '../shared/MediaQuery';
 export const HeroStyle = styled.section`
   width: 100%;
   height: 95vh;
-  background: ${theme.palette.common.black};
   color: ${theme.palette.common.white};
   position: relative;
   z-index: 1;
@@ -51,15 +50,17 @@ export const SecondTitle = styled(Title)`
   position: relative;
   line-height: 1.6;
   font-size: ${fontSize(36)};
+  z-index: 2;
   :before {
     content: '';
     position: absolute;
-    width: 50%;
+    width: 48%;
     height: 10px;
     z-index: -1;
     background-color: ${theme.palette.common.pink};
     bottom: 12px;
     left: 27px;
     opacity: 0.8;
+    z-index: -1;
   }
 `;

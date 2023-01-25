@@ -1,27 +1,27 @@
 import React from 'react';
+import { Css3, ReactLogo, Typescript } from 'styled-icons/boxicons-logos';
+import { Figma } from 'styled-icons/fa-brands';
+import {
+  Adobephotoshop,
+  Nextdotjs,
+  Styledcomponents,
+} from 'styled-icons/simple-icons';
 import {
   BoxSkills,
   ContentSkills,
   HeaderMySkills,
   ImageSkills,
   MySkillsStyle,
+  TitleHeaderSkills,
   TitleSkills,
 } from './MySkills.style';
-import { SecondTitle } from './Hero.style';
-import { Css3, ReactLogo, Typescript } from 'styled-icons/boxicons-logos';
-import {
-  Adobephotoshop,
-  Nextdotjs,
-  Styledcomponents,
-} from 'styled-icons/simple-icons';
-import { Figma } from 'styled-icons/fa-brands';
 
 function MySkills() {
   return (
     <MySkillsStyle>
       <ImageSkills alt='background skills' src='/background.png' />
       <HeaderMySkills>
-        <SecondTitle> My skills</SecondTitle>
+        <TitleHeaderSkills> My skills</TitleHeaderSkills>
         <ContentSkills>
           <BoxSkills>
             <ReactLogo size={68}></ReactLogo>
