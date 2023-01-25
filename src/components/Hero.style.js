@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { fontSize, theme } from '../styles/theme';
+import { device } from '../shared/MediaQuery';
 
 export const HeroStyle = styled.section`
   width: 100%;
@@ -27,10 +28,15 @@ export const Header = styled.div`
   max-width: 400px;
 `;
 export const Title = styled.h1`
-  font-family: ${theme.fontFamily.main};
   text-transform: uppercase;
-  font-size: ${fontSize(60)};
   text-shadow: 2px 1px 2px ${theme.palette.common.grey};
+  font-family: ${theme.fontFamily.main};
+  @media ${device.mobileS} {
+    font-size: ${fontSize(30)};
+  }
+  @media ${device.mobileL} {
+    font-size: ${fontSize(60)};
+  }
 `;
 
 export const SubTitle = styled.span`

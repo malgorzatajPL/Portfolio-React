@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { fontSize, theme } from '../styles/theme';
+import { device } from '../shared/MediaQuery';
 
 export const AboutStyle = styled.section`
   width: 100%;
@@ -11,8 +12,14 @@ export const AboutHeader = styled.div`
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
-  width: 65%;
-  padding: 0 20px 40px 20px;
+  @media ${device.mobileS} {
+    padding: 0 10px 40px 10px;
+    width: 80%;
+  }
+  @media ${device.tablet} {
+    padding: 0 20px 40px 20px;
+    width: 65%;
+  }
 `;
 
 export const TitleAbout = styled.h3`
