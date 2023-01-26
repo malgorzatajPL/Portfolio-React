@@ -109,7 +109,6 @@ export const Listli = styled.li`
   @media ${device.mobileS} {
     font-size: ${fontSize(16)};
   }
-
   @media ${device.laptop} {
     font-size: ${fontSize(20)};
   }

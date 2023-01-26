@@ -17,7 +17,7 @@ const Hero = () => {
       </Header>
       <Header>
         <Title>Malgorzata</Title> <Title>Jaskiewicz </Title>
-        <SubTitle>portfolio</SubTitle>
+        <SubTitle>Portfolio</SubTitle>
       </Header>
     </HeroStyle>
   );
