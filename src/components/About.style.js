@@ -1,11 +1,11 @@
 import styled from 'styled-components';
-import { fontSize, theme } from '../styles/theme';
 import { device } from '../shared/MediaQuery';
+import { fontSize, theme } from '../styles/theme';
 
 export const AboutStyle = styled.section`
   width: 100%;
   color: ${theme.palette.common.white};
-  min-height: 55vh;
+  max-height: 55vh;
   z-index: 10;
   position: relative;
   background: ${theme.palette.common.black};

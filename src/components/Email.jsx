@@ -1,7 +1,16 @@
-import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import React, { useRef } from 'react';
+import Button from './Button';
+import {
+  FormBox,
+  FormBoxButton,
+  FormInput,
+  FormLabel,
+  FormStyle,
+  FormTextarea,
+} from './Email.style';
 
-export const ContactUs = () => {
+export const Email = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -25,14 +34,24 @@ export const ContactUs = () => {
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
-      <input type='text' name='user_name' />
-      <label>Email</label>
-      <input type='email' name='user_email' />
-      <label>Message</label>
-      <textarea name='message' />
-      <input type='submit' value='Send' />
-    </form>
+    <FormStyle>
+      <form ref={form} onSubmit={sendEmail}>
+        <FormBox>
+          <FormLabel>Name</FormLabel>
+          <FormInput type='text' name='user_name' />
+        </FormBox>
+        <FormBox>
+          <FormLabel>Email</FormLabel>
+          <FormInput type='email' name='user_email' />
+        </FormBox>
+        <FormBox>
+          <FormLabel>Message</FormLabel>
+          <FormTextarea name='message' />
+        </FormBox>
+        <FormBoxButton>
+          <Button type='submit' text_button='Send' />
+        </FormBoxButton>
+      </form>
+    </FormStyle>
   );
 };

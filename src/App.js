@@ -1,5 +1,5 @@
 import About from './components/About';
-import { ContactUs } from './components/Email';
+import Contact from './components/Contact';
 import Hero from './components/Hero';
 import MyExperience from './components/MyExperience';
 import MySkills from './components/MySkills';
@@ -11,7 +11,7 @@ function App() {
       <About />
       <MySkills />
       <MyExperience />
-      <ContactUs />
+      <Contact />
     </>
   );
 }
