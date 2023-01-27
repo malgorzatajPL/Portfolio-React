@@ -11,6 +11,7 @@ const ContactStyle = styled.div`
   @media ${device.mobileS} {
     justify-content: center;
     padding: 0 6%;
+    flex-wrap: wrap;
   }
   @media ${device.laptop} {
     padding: 0 12%;
