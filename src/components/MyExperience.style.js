@@ -64,10 +64,16 @@ export const TitleMyExperience = styled(SecondTitle)`
 export const ContainerMyExperience = styled.div`
   @media ${device.mobileS} {
     width: 100%;
+    &:nth-child(odd) {
+      padding-top: 50px;
+    }
   }
   @media ${device.laptop} {
     width: 50%;
     padding: 0 20px;
+    :nth-child(odd) {
+      padding-top: 0;
+    }
   }
 `;
 export const TitleContainer = styled.h3`
