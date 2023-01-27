@@ -67,6 +67,7 @@ export const ContainerMyExperience = styled.div`
   }
   @media ${device.laptop} {
     width: 50%;
+    padding: 0 20px;
   }
 `;
 export const TitleContainer = styled.h3`

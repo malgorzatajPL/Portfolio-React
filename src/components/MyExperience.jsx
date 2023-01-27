@@ -45,6 +45,20 @@ function MyExperience() {
           </List>
         </ContentContainer>
       </ContainerMyExperience>
+      <ContainerMyExperience>
+        <TitleContainer>Freelance, Frontend developer</TitleContainer>
+        <ContentContainer>
+          <Data>08.2020 - 11.2021</Data>
+          <List>
+            <Listli>Creating business cards based on PDF in html, css </Listli>
+            <Listli>
+              Reviewing other PRs, testing their work to see if they produce
+              errors.
+            </Listli>
+            <Listli>Creating email disclaimers for various companies </Listli>
+          </List>
+        </ContentContainer>
+      </ContainerMyExperience>
     </MyExperienceStyle>
   );
 }
