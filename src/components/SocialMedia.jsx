@@ -19,7 +19,7 @@ const SocialMedia = () => {
           <Linkedin size={68} />
         </Link>
         <Link target='blank' href='https://github.com/malgorzatajPL'>
-          <Github size={68} />
+          <Github size={62} />
         </Link>
       </FormBox>
     </SocialMediaStyle>
