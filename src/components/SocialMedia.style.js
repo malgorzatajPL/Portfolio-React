@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { fontSize, theme } from '../styles/theme';
+import { device } from '../shared/MEdiaQuery';
 export const SocialMediaStyle = styled.div`
   display: flex;
   flex-direction: column;
@@ -7,7 +8,15 @@ export const SocialMediaStyle = styled.div`
 `;
 export const Link = styled.a`
   color: ${theme.palette.common.white};
-  padding: 30px;
+  @media ${device.mobileS} {
+    padding: 18px;
+  }
+  @media ${device.mobileXL} {
+    padding: 22px;
+  }
+  @media ${device.tablet} {
+    padding: 30px;
+  }
 `;
 
 export const SocialTitle = styled.span`
