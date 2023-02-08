@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { fontSize, theme } from '../styles/theme';
-import { device } from '../shared/MEdiaQuery';
+import { device } from '../shared/MediaQuery';
 export const SocialMediaStyle = styled.div`
   display: flex;
   flex-direction: column;
